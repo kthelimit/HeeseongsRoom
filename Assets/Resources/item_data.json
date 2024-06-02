@@ -1,0 +1,218 @@
+﻿[
+  {
+    "id": 1,
+    "name": "토끼인형",
+    "description": "폭신하고 귀엽다.",
+    "icon": "item_001",
+    "type": "product",
+    "money": 20
+  },
+  {
+    "id": 2,
+    "name": "고양이인형",
+    "description": "폭신하고 귀엽다.",
+    "icon": "item_002",
+    "type": "product",
+    "money": 30
+  },
+  {
+    "id": 3,
+    "name": "강아지인형",
+    "description": "폭신하고 귀엽다.",
+    "icon": "item_003",
+    "type": "product",
+    "money": 25
+  },
+  {
+    "id": 4,
+    "name": "곰인형",
+    "description": "폭신하고 귀엽다.",
+    "icon": "item_004",
+    "type": "product",
+    "money": 35
+  },
+  {
+    "id": 5,
+    "name": "야구공",
+    "description": "야구할 때 쓰는 공. 작고 단단하다.",
+    "icon": "item_005",
+    "type": "product",
+    "money": 15
+  },
+  {
+    "id": 6,
+    "name": "축구공",
+    "description": "축구할 때 쓰는 공. 꿰매는데 오래걸렸어.",
+    "icon": "item_006",
+    "type": "product",
+    "money": 25
+  },
+  {
+    "id": 7,
+    "name": "농구공",
+    "description": "농구할 떄 쓰는 공. 단단하지만 잘 튕긴다.",
+    "icon": "item_007",
+    "type": "product",
+    "money": 20
+  },
+  {
+    "id": 100,
+    "name": "미가공 마석",
+    "description": "가공되지않은 마석. 뭐가 나오려나?",
+    "icon": "item_100",
+    "type": "drop",
+    "money": 20
+  },
+  {
+    "id": 101,
+    "name": "붉은빛 마석",
+    "description": "강화용 마석…인데 지금은 사용할 수 없다.",
+    "icon": "item_101",
+    "type": "random",
+    "money": 25
+  },
+  {
+    "id": 102,
+    "name": "푸른빛 마석",
+    "description": "강화용 마석…인데 지금은 사용할 수 없다.",
+    "icon": "item_102",
+    "type": "random",
+    "money": 25
+  },
+  {
+    "id": 103,
+    "name": "선홍빛 마석",
+    "description": "강화용 마석…인데 지금은 사용할 수 없다.",
+    "icon": "item_103",
+    "type": "random",
+    "money": 25
+  },
+  {
+    "id": 104,
+    "name": "녹빛 마석",
+    "description": "강화용 마석…인데 지금은 사용할 수 없다.",
+    "icon": "item_104",
+    "type": "random",
+    "money": 25
+  },
+  {
+    "id": 105,
+    "name": "금빛 마석",
+    "description": "강화용 마석…인데 지금은 사용할 수 없다.",
+    "icon": "item_105",
+    "type": "random",
+    "money": 25
+  },
+  {
+    "id": 106,
+    "name": "보랏빛 마석",
+    "description": "강화용 마석…인데 지금은 사용할 수 없다.",
+    "icon": "item_106",
+    "type": "random",
+    "money": 25
+  },
+  {
+    "id": 107,
+    "name": "돌덩이",
+    "description": "그냥 돌이다.",
+    "icon": "item_107",
+    "type": "drop",
+    "money": 1
+  },
+  {
+    "id": 108,
+    "name": "검은뼈",
+    "description": "크리처를 잡으면 나오는 뼈.",
+    "icon": "item_108",
+    "type": "drop",
+    "money": 5
+  },
+  {
+    "id": 109,
+    "name": "빈 병",
+    "description": "내용물이 비어있는 병.",
+    "icon": "item_109",
+    "type": "drop",
+    "money": 1
+  },
+  {
+    "id": 110,
+    "name": "로프",
+    "description": "안전사고에 주의하자.",
+    "icon": "item_110",
+    "type": "drop",
+    "money": 2
+  },
+  {
+    "id": 111,
+    "name": "정체불명의 고기",
+    "description": "크리처를 잡으면 나오는 고기. 식용금지.",
+    "icon": "item_111",
+    "type": "drop",
+    "money": 1
+  },
+  {
+    "id": 112,
+    "name": "소주병",
+    "description": "내용물이 건재한 병.",
+    "icon": "item_112",
+    "type": "drop",
+    "money": 15
+  },
+  {
+    "id": 113,
+    "name": "맥주병",
+    "description": "내용물이 건재한 병. 마시는 건 안 돼.",
+    "icon": "item_113",
+    "type": "drop",
+    "money": 10
+  },
+  {
+    "id": 114,
+    "name": "빈깡통",
+    "description": "내용물이 비어있는 캔.",
+    "icon": "item_114",
+    "type": "drop",
+    "money": 1
+  },
+  {
+    "id": 115,
+    "name": "물",
+    "description": "바로 마실 수 있다.",
+    "icon": "item_115",
+    "type": "drop",
+    "money": 5
+  },
+  {
+    "id": 116,
+    "name": "가위",
+    "description": "그냥 가위.",
+    "icon": "item_116",
+    "type": "drop",
+    "money": 1
+  },
+  {
+    "id": 117,
+    "name": "녹색 빈 병",
+    "description": "내용물이 비어있는 병. 쪼금 더 비싸다.",
+    "icon": "item_117",
+    "type": "drop",
+    "money": 3
+  },
+  {
+    "id": 118,
+    "name": "갈색 빈 병",
+    "description": "내용물이 비어있는 병. 쪼금 더 비싸다.",
+    "icon": "item_118",
+    "type": "drop",
+    "money": 3
+  },
+  {
+    "id": 119,
+    "name": "담배",
+    "description": "엄청 비싼 사치품.",
+    "icon": "item_119",
+    "type": "drop",
+    "money": 100
+  }
+]

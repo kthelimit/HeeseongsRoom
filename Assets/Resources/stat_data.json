@@ -1,0 +1,56 @@
+﻿[
+  {
+    "level": 0,
+    "levelScript": "0->1",
+    "money": 50,
+    "maxHP": 100,
+    "searchTime": 900.0,
+    "makingMax": 600.0,
+    "moneyAdd": 1.0
+  },
+  {
+    "level": 1,
+    "levelScript": "1->2",
+    "money": 100,
+    "maxHP": 120,
+    "searchTime": 600.0,
+    "makingMax": 500.0,
+    "moneyAdd": 1.1
+  },
+  {
+    "level": 2,
+    "levelScript": "2->3",
+    "money": 200,
+    "maxHP": 150,
+    "searchTime": 480.0,
+    "makingMax": 400.0,
+    "moneyAdd": 1.3
+  },
+  {
+    "level": 3,
+    "levelScript": "3->4",
+    "money": 500,
+    "maxHP": 200,
+    "searchTime": 300.0,
+    "makingMax": 300.0,
+    "moneyAdd": 1.5
+  },
+  {
+    "level": 4,
+    "levelScript": "4->5",
+    "money": 1000,
+    "maxHP": 280,
+    "searchTime": 240.0,
+    "makingMax": 200.0,
+    "moneyAdd": 1.8
+  },
+  {
+    "level": 5,
+    "levelScript": "MAX",
+    "money": 0,
+    "maxHP": 400,
+    "searchTime": 180.0,
+    "makingMax": 100.0,
+    "moneyAdd": 2.5
+  }
+]
