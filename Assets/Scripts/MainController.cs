@@ -182,7 +182,7 @@ public class MainController : MonoBehaviour
 
     public void UpdateAllBar()
     {
-        uiLike.UpdateBar();
+        uiLike.UpdateBarWithoutAnimation();
         workStationController.uIWorkManager.UpdateBar();
         bedController.hpManager.UpdateBar();
         UIMoneyManager.UpdateMoneyTextWithoutAnimation();
@@ -214,14 +214,14 @@ public class MainController : MonoBehaviour
                 buttonManager.transform.GetChild(1).GetComponent<Button>().enabled = true;
             }
             CloseStatLv();
+            CloseInventory();
             buttonManager.gameObject.transform.DOMoveY(0f, 0.3f);
         }
     }
     public void CloseButtons()
     {       
         buttonManager.gameObject.transform.DOMoveY(-200f, 0.3f);
-        CloseCollection();
-        CloseInventory();       
+        CloseCollection();             
     }
 
     public void ActiveHPProgressBar()

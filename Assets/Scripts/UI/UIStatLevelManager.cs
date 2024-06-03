@@ -6,20 +6,13 @@ public class UIStatLevelManager : MonoBehaviour
 {
     public Transform content;
     public GameObject statPrefab;
-    List<StatLevel> statLevels;
     public GameManager gameManager;
     public void Init()
-    {        
-        if (statLevels == null)
+    {
+        StatLevel[] statLevels = content.GetComponentsInChildren<StatLevel>();
+        foreach (StatLevel statLevel in statLevels)
         {
-            statLevels = new List<StatLevel>();
-        }
-        else
-        {
-            foreach (StatLevel level in statLevels)
-            {
-                GameObject.Destroy(level.gameObject);
-            }
+            GameObject.Destroy(statLevel.gameObject);
         }
 
     }
@@ -36,7 +29,6 @@ public class UIStatLevelManager : MonoBehaviour
             StatLevelData leveldata = DataManager.Instance.GetStatLevelData(info.level);
             GameObject a = Instantiate(statPrefab, content);
             a.GetComponent<StatLevel>().SetStat(stats[i]);
-            statLevels.Add(a.GetComponent<StatLevel>());            
         }
 
     }
